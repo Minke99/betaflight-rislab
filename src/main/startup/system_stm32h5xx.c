@@ -109,7 +109,12 @@
   * @{
   */
 
+#include <string.h>
+
 #include "stm32h5xx.h"
+#include "drivers/system.h"
+#include "platform.h"
+#include "drivers/persistent.h"
 
 /**
   * @}
